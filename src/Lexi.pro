@@ -15,10 +15,14 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     list.cpp \
-    glyph.cpp
+    glyph.cpp \
+    Common/list.cpp \
+    Common/point.cpp
 
 HEADERS  += mainwindow.h \
     list.h \
-    glyph.h
+    glyph.h \
+    Common/list.h \
+    Common/point.h
 
 FORMS    += mainwindow.ui
